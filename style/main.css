@@ -235,16 +235,25 @@ b {
   /*color: #13acc2;*/
 }
 
-.constraints ul {
+.constraints ul,
+.constraints ol {
   margin: 10px 40px;
 }
 
-.constraints ul li {
-  list-style-type: disc;
+.constraints ul li,
+.constraints ol li {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   letter-spacing: 0.5px;
   padding: 7px 10px;
+}
+
+.constraints ul li {
+    list-style-type: disc;
+}
+
+.constraints ol li {
+    list-style-type: decimal;
 }
 
 .constraints a {
