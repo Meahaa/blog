@@ -25,7 +25,7 @@
       </ul>
     </div>
   </nav>
-  <div class="main_copy">
+  <div class="main_copy process">
     <h2>Integrating Interfaces</h2>
     <h3>A personal exploration into understanding the dos and don'ts of integrated physical-digital interface design.</h3>
   </div>
@@ -77,15 +77,28 @@
     </div>
     <div class="constraints">
       <h6>Design: IoT Fridge</h6>
-      <p>It is important to note that I am not trying to drastically change or alter the current functions of a fridge. Instead, I'm aiming - like most integrated devices - to add additional functionality to the product. This additional functionality is meant to ease some of the burdens a user may typically have with this common household appliance, or add additional features that could make the experience richer. </p>
+      <p>It is important to note that I am not trying to drastically change or alter the current functions of a fridge. Instead, I'm aiming - like most integrated devices - to add additional functionality to the product. This additional functionality is meant to ease some of the burdens a user may typically have with this common household appliance, or add additional features that could make the experience richer. In order to incorporate a digital display without drastically altering the controls of the fridge, it will sit within the door of the fridge at eye-level and within the comfortable reach of the average population height. The controls of the fridge will be as follows:</p>
       <ul>
-        <li>Light: Physical Control with digital </li>
-        <li>Temperature: Keep in physical and add digital? Or just go digital? Confusing to have it both, right now fridges are confusing, keep it one track. only set, not current sinc eyou would not change this temp often so current is likely always set. Prevent accidental clicks would always be asked to confirm change in temp before changing temp.</li>
-        <li>Reminders: Replace a light, change the filter, you've run out of eggs/milk (if there is a special compartment for this) all digital, could connect to a mobile app in true IoT fashion (depending on users desires this should be optional)</li>
-        <li>Energy consumption: Digital, maybe even tell you if the fridge/freezer has been open too long. THIS IS NOT SUPER USEFUL BECAUSE UNLIKE HEAT/LIGHTS YOU WONT CHANGE CONSUMPTION.</li>
-        <li>Time: nice to have in a kitchen, happens alot when idividuals look for time auto synch with server, when not in use it will just display time (maybe even date). Motion detected to activate display based on proximity to fridge or movement of door.</li>
-        <li>Reminders: maybe you can set these from your phone or from the display, like pick up eggs, throw out etc. almost like that note pad you always have on yoru fridge</li>
-        <li>Capacity: how mcuh space you have left in your fridge. Maybe you can access this on mobile when grocery shopping to help dictate your purchases.</li>
+        <li><b>Light</b>: The light control will remain in the fridge as with the current fridge design. It doesn't make sense to make this control control digital since it is only accessed when the fridge is open, and the display is out of reach.</li>
+        <div class="size">
+          <img src="images/iot1.png" class="full_image border">
+          <h5 class="caption">When screen is OFF</h5>
+        </div>
+        <li><b>Time:</b> When in any household, it's always convenient to have the time located in many places. In kitchens, this can typically be found on ovens, microwaves and stoves. Having an additional device tell you time (and date) could provide useful information to users. When not in use the screen on the fridge will display time and date (see above). When motion of the door is detected or proximity of a person, the display will activate .</li>
+        <div class="size">
+          <img src="images/iot3.png" class="full_image border">
+          <h5 class="caption">Alert if fridge/freezer is open too long</h5>
+        </div>
+        <li><b>Energy consumption</b>: Many IoT products such as lights and heating systems display energy consumption statistics to assist users in making environmentally friendly decisions. While initially, I included this feature as part of the interface, I realized that this case is very different than other household appliances. Unlike heating/cooling systems or lights in the home, the temperature of the fridge does not change based on user preference, but is set based on the contents of the appliance, and couldn't really change based on energy consumption patterns. Instead, to conserve energy, the digital display can have both a visual and audible alert to warn you if the fridge/freezer has not been properly closed/is open too long.</li>
+        <div class="size">
+          <img src="images/iot2.png" class="full_image border">
+          <h5 class="caption">Display</h5>
+        </div>
+        <li><b>Temperature</b>: Designing the temperature controls was a difficult process for me. As a primary control in the fridge it's important to ensure that it was easily accessible and in the correct mode. It would be confusing to have it available in both physical and digital interfaces, but it was difficult to know if matching the current standard of physical controls, or moving to easier to use digital controls would be more valuable. Since current physical controls are often confusing, and difficult to locate, it seemed the better choice to make the controls and information digital, and easily accessible in the display. To change the temperature, users would need to confirm in order to prevent accidental clicks on the interface from affecting the temperature of the appliance.</li>
+        <li><b>Reminders</b>: "Replace the light.", "Change the water filter." "You're low on eggs" are all digital reminders that currently rely on users memory. The digital interface could provide this information to users alleviating some of the cognitive workload. Additionally, users could have the option to connect their fridge to a mobile app in true IoT fashion (depending on users desires this should be optional) to access this information remotely, such as when they are grocery shopping.</li>
+        <li><b>Notes</b>: People often have small notes/reminders around their kitchen, sometimes even stuck to the fridge. Taking inspiration from that behavior, I've integrated a notes section into the interface for users to create reminders, notes and maybe even events. Similar to reminders, it would be ideal to be able to set and see these from an app so they are accessible remotely.</li>
+        <li><b>Capacity</b>: Indicating how much space remains in your fridge can help users when they are grocery shopping to determine the volume of food they should buy. It can help with organization of the fridge and does not rely on user memory, but rather sensors with the appliance itself.
+        </li>
       </ul>
     </div>
   </div>
@@ -93,7 +106,7 @@
     <ul>
       <li><a href="habits.html">Design for Habits</a></li>
       <li><a href="integrated.html">Integrated Interfaces</a></li>
-      <li><a href="education.html">Design for International</a></li>
+      <li><a href="international.html">International Design</a></li>
     </ul>
   </div>
 </body>
