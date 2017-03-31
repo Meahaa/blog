@@ -77,14 +77,17 @@
     </div>
     <div class="constraints">
       <h6>Design: IoT Fridge</h6>
-      <p>It is important to note that I am not trying to drastically change or alter the current functions of a fridge. Instead, I'm aiming - like most integrated devices - to add additional functionality to the product. This additional functionality is meant to ease some of the burdens a user may typically have with this common household appliance, or add additional features that could make the experience richer. In order to incorporate a digital display without drastically altering the controls of the fridge, it will sit within the door of the fridge at eye-level and within the comfortable reach of the average population height. The controls of the fridge will be as follows:</p>
+      <p>It is important to note that I am not trying to drastically change or alter the current functions of a fridge. Instead, I'm aiming - like most integrated devices - to add additional functionality to the product. This additional functionality is meant to ease some of the burdens a user may typically have with this common household appliance, or add additional features that could make the experience richer. In order to incorporate a digital display without drastically altering the controls of the fridge, it will sit within the door of the fridge at eye-level and within the comfortable reach of the average population height. The controls of the fridge are also outlined below</p>
       <ul>
+       <div class="center">
+       <img src="images/fridge.png" class="full_image">
+       </div>
         <li><b>Light</b>: The light control will remain in the fridge as with the current fridge design. It doesn't make sense to make this control control digital since it is only accessed when the fridge is open, and the display is out of reach.</li>
         <div class="size">
           <img src="images/iot1.png" class="full_image border">
           <h5 class="caption">When screen is OFF</h5>
         </div>
-        <li><b>Time:</b> When in any household, it's always convenient to have the time located in many places. In kitchens, this can typically be found on ovens, microwaves and stoves. Having an additional device tell you time (and date) could provide useful information to users. When not in use the screen on the fridge will display time and date (see above). When motion of the door is detected or proximity of a person, the display will activate .</li>
+        <li><b>Time:</b> When in any household, it's always convenient to have the time located in many places. In kitchens, this can typically be found on ovens, microwaves and stoves. Having an additional device tell you time (and date) could provide useful information to users. When not in use the screen on the fridge will display time and date (see above). The screen will activate if a user is detected in front of the display on the fridge - a 1 meter radius - for an extended period of time (a few seconds), or if a user touches the screen. If a person were to just walk in front of the fridge, the time display could continue to show. If the fridge door is opened, the display would continue to show what was previously showing. This is to ensure that if a user is using the screen, the ifnormation will continue to show even if the fridge is opened, but if it is inactive, it will not unecessarily activate.</li>
         <div class="size">
           <img src="images/iot3.png" class="full_image border">
           <h5 class="caption">Alert if fridge/freezer is open too long</h5>

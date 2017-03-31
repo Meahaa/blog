@@ -77,7 +77,7 @@ b {
   text-decoration: underline;
 }
 
-a:visited {
+a:visited, a {
   color: #13acc2;
 }
 
